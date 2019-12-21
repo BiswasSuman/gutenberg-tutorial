@@ -1,5 +1,5 @@
 const { registerBlockType } = wp.blocks;
-const { RichText } = wp.editor;
+const { RichText } = wp.blockEditor;
 
 registerBlockType('alecaddd/custom-cta', {
     title: 'Call to Action',
